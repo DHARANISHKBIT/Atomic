@@ -38,7 +38,7 @@ const handleClick = (id) =>{
       {iconList.map((item, index) => (
         <Box sx={{width:'100%',display:'flex',flexDirection:'column',alignItems:'center'}}>
             <Box sx={Sidestyle.icon} key={index}  onClick={() => handleClick(item.id)} >
-              <Box sx={{backgroundColor:color == item.id ? "#49C792" : "transparent",...Sidestyle.oneicon}}> 
+              <Box sx={{backgroundColor:color === item.id ? "#49C792" : "transparent",...Sidestyle.oneicon}}> 
               {React.cloneElement(item.icon, { sx: Sidestyle.i })} 
                 </Box> 
             </Box>
@@ -49,7 +49,7 @@ const handleClick = (id) =>{
           <Box sx={Sidestyle.three}  >
        {icons.map((item, index) => (
             <Box sx={Sidestyle.icon} key={index} onClick={()=> handleClick(item.id)}>
-               <Box sx={{backgroundColor:color == item.id ? "#49C792" : "transparent",...Sidestyle.oneicon}}>
+               <Box sx={{backgroundColor:color === item.id ? "#49C792" : "transparent",...Sidestyle.oneicon}}>
               {React.cloneElement(item.icon, { sx: Sidestyle.i })}
               </Box>
             </Box>

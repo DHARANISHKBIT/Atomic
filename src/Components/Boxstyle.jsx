@@ -1,4 +1,3 @@
-import { borderRadius, color, display, fontSize, fontWeight, height, padding, width } from "@mui/system";
 
 const Boxstyle = {
     width: '94%',

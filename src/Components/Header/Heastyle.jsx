@@ -91,39 +91,6 @@ title:{
     fontWeight:'bold'
 },
 
-nameasterisk: {
-    display: "flex",
-    gap: "1%",
-    color: "#484759",
-    fontSize: "12px",
-  },
-  asterisk: {
-    color: "red"
-  },
-  nameinputs: {
-    width: "100%",
-    display: "flex",
-    flexDirection: "column",
-    gap: "7px"
-  },
-  inputsvaluefonts: {
-    fontFamily: "Poppins, sans-serif",
-              fontSize: "14px",
-  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   allinput: {
     width: "100%",
     justifyContent: "space-evenly",
