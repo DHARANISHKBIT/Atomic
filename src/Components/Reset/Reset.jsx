@@ -38,8 +38,7 @@ function Reset() {
       {showAlert && (
         <Alert
           sx={{ position: 'absolute', top: '10px' }}
-          // icon={<CloseIcon fontSize="inherit" />}
-          // severity="success"
+        
           action={
             <IconButton
               size="small"

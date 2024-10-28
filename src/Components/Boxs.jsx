@@ -4,7 +4,7 @@ import Boxstyle from './Boxstyle.jsx'
 function Boxs(props) {
   return (
     <Box sx={Boxstyle}>
-      <img src={props?.img}/>
+      <img alt="" src={props?.img}/>
       <Typography sx={Boxstyle.proname}>{props?.name}</Typography>
     </Box>
   )

@@ -14,7 +14,7 @@ function Forgot() {
 
   return (
     <Box sx={Forstyle}>
-      <img src={atomic} alt="Atomic" style={Forstyle.atomic} />
+      <img alt="" src={atomic} alt="Atomic" style={Forstyle.atomic} />
       <Typography sx={Forstyle.type}>Forgot Password</Typography>
       <Typography sx={Forstyle.para}>
         Provide us the registered email to reset your password.
