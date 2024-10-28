@@ -36,7 +36,7 @@ function Sign() {
         </Box>
         <input type="text" placeholder="atomicsignals@gmail.com" className="inputbox" />
       </Box>
-      <Box sx={Signstyle.muibox}>
+      <Box sx={Signstyle.muibox} onClick={()=> navigate("/main")}>
         <Muibox vari="contained" name="Sign up" color="#49C792" />
       </Box>
       <Box sx={
