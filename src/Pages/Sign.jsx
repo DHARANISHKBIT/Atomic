@@ -1,13 +1,20 @@
 import React from 'react'
 import Sign from '../Components/logins/Signcom'
 import Welcome from '../Components/Welcome/Welcome'
+import { Box } from '@mui/system'
 
 function Signpage
 () {
-  return (
-    <div style={{width:'25%',height:'524px',backgroundColor:'#FFFFFF',borderRadius:'5px'}}>
+  const style ={
+    width:'25%',
+    height:'524px',
+    backgroundColor:'#FFFFFF',
+    borderRadius:'5px'
+  }
+   return (
+    <Box sx={style}>
       <Sign />
-    </div>
+    </Box>
   )
 }
 
