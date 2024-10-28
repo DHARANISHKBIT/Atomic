@@ -1,0 +1,17 @@
+.inputbox{
+    border-color: #EBEBEB;
+    height: 35%;
+    border: 1px solid #EBEBEB;
+    padding: 2%;
+    border-radius: 4px;
+    opacity: 1;
+}
+.inputbox::placeholder{
+    color: #353448;
+    font-size: 14px;
+    font-weight: normal;
+}
+.inputbox:focus{
+    outline: none;
+}
+/* .inputbox::placeholder */
