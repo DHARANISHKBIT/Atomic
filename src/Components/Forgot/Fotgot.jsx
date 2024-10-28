@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Forstyle from './Forgetstyle.jsx';
 import { Box, TextField, Typography } from '@mui/material';
 import atomic from '../../assets/atomic.png';
@@ -14,7 +14,7 @@ function Forgot() {
 
   return (
     <Box sx={Forstyle}>
-      <img alt="" src={atomic} alt="Atomic" style={Forstyle.atomic} />
+      <img alt="" src={atomic} style={Forstyle.atomic} />
       <Typography sx={Forstyle.type}>Forgot Password</Typography>
       <Typography sx={Forstyle.para}>
         Provide us the registered email to reset your password.

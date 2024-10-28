@@ -1,4 +1,3 @@
-import { borderBottom, borderColor, borderRadius, color, display, fontSize, fontWeight, height, margin, padding, textTransform, width } from "@mui/system"
 
 const HedStyle = {
     width:'98%',
@@ -6,21 +5,17 @@ const HedStyle = {
     backgroundColor:'#F0F0F0',
     display:'flex',
     padding:'1%',
-    // justifyContent:'space-between',
     overflowX: 'auto',
     scrollbarWidth: 'none',
-    // backgroundColor:'red',
     
     team:{
         width:'15%',
         height:"100%",
         alignItems:'center',
-        // backgroundColor:'red',
     color:"#353448",
     fontSize:'20px',
     fontWeight:"normal",
     display:'flex',
-    // marginTop:'20px',
 
 },
 rightteam:{
@@ -28,7 +23,6 @@ rightteam:{
     height:"100%",
     display:'flex',
     justifyContent:'space-evenly',
-    // backgroundColor:'blue',
     alignItems:'center',
     marginLeft:'300px'
 },
@@ -40,7 +34,6 @@ chek:{
     width:'25%',
     height:'100%',
     alignItems:'center',
-    // backgroundColor:'red',
     gap:"2px",
 },
 show:{
@@ -96,13 +89,8 @@ title:{
     fontSize:'16px',
     color:'#353448',
     fontWeight:'bold'
-    // backgroundColor:'red'
 },
 
-// nameinputs:{
-//     height:'20%',
-//     width:'100%'
-// },
 nameasterisk: {
     display: "flex",
     gap: "1%",
@@ -281,15 +269,10 @@ nameasterisk: {
     flexDirection: "column",
     gap: "12px"
   },
-  toaster: {
-      // position: "absolute",
-      // display: "none"
-  },
+
   searchicon: {
     position: "absolute",
   left: "10px",
-  // top: "50%",
-  // transform: "translateY(-50%)",
   width: "20px",
   height: "20px",
   color: "#888888",
@@ -302,11 +285,7 @@ nameasterisk: {
     height: "40px",
             fontSize: "14px",
             fontFamily: "Poppins, sans-serif",
-            // padding: "0px 14px",
-            // lineHeight: "1.5",
-            // borderRadius: "8px",
             color: "black",
-            // backgroundColor: "#F5F7FA",
             ".MuiSvgIcon-root": {
               color: "#091B29",
             },
@@ -327,14 +306,7 @@ nameasterisk: {
   sel:{
     color:'gray',
   },
-//   action:{
-//     position:'absolute',
-//     top:'0%',
-//     right:'0%',
-//     height:'10.5%',
-//     width:'15%',
-//     backgroundColor:'red',
-//   },
+
  
   
 }

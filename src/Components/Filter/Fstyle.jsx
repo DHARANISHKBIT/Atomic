@@ -1,4 +1,3 @@
-import { borderBottom, borderColor, color, display, fontSize, fontWeight, height, margin, textTransform, width } from "@mui/system"
 
 const style ={
  width:'100%',
@@ -9,7 +8,6 @@ const style ={
     height:'6%',
     marginTop:'8px',
     fontWeight:'bold',
-    // backgroundColor:'red',
     borderBottom:'1px solid #EBEBEB'
  },
  over:{
@@ -28,7 +26,7 @@ const style ={
     borderColor:'#EBEBEB',
     fontSize:'14px',
     color:'#353448',
-     height:'40px',
+    height:'40px',
      textTransform:'none',
  },
  dep:{

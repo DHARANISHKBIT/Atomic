@@ -1,5 +1,3 @@
-import zIndex from "@mui/material/styles/zIndex";
-import { borderBottom, borderLeft, borderRadius, color, display, fontSize, fontWeight, height, margin, textTransform, width } from "@mui/system";
 
 const Mainstyle = {
   paper:{ 
