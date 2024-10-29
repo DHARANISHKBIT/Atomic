@@ -6,7 +6,7 @@ const style = {
   width:'400px',
   height:'386px',
   backgroundColor:'#FFFFFF',
-  borderRadius:'5px'
+  borderRadius:'5px',
 }
 
 function Forgetpage() {

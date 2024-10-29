@@ -43,7 +43,19 @@ const rows = [
   createData("George Fernandes", "Visual Designer", "Design", "C E T D U", "Excellent", "Steven", "Employee", "dharanis@gmail.com", "3 years 4 months", "Active", Men),
   createData("Alice Johnson", "Project Manager", "Management", "C E D U T", "Good", "Michael", "Employee", "alice@gmail.com", "5 years", "Active", Men),
   createData("John Doe", "Software Engineer", "Development", "C D E T U", "Very Good", "Sarah", "Employee", "john.doe@gmail.com", "2 years", "Active", Men),
- 
+  createData("George Fernandes", "Visual Designer", "Design", "C E T D U", "Excellent", "Steven", "Employee", "dharanis@gmail.com", "3 years 4 months", "Active", Men),
+  createData("Alice Johnson", "Project Manager", "Management", "C E D U T", "Good", "Michael", "Employee", "alice@gmail.com", "5 years", "Active", Men),
+  createData("John Doe", "Software Engineer", "Development", "C D E T U", "Very Good", "Sarah", "Employee", "john.doe@gmail.com", "2 years", "Active", Men),
+  createData("George Fernandes", "Visual Designer", "Design", "C E T D U", "Excellent", "Steven", "Employee", "dharanis@gmail.com", "3 years 4 months", "Active", Men),
+  createData("Alice Johnson", "Project Manager", "Management", "C E D U T", "Good", "Michael", "Employee", "alice@gmail.com", "5 years", "Active", Men),
+  createData("John Doe", "Software Engineer", "Development", "C D E T U", "Very Good", "Sarah", "Employee", "john.doe@gmail.com", "2 years", "Active", Men),
+  createData("George Fernandes", "Visual Designer", "Design", "C E T D U", "Excellent", "Steven", "Employee", "dharanis@gmail.com", "3 years 4 months", "Active", Men),
+  createData("Alice Johnson", "Project Manager", "Management", "C E D U T", "Good", "Michael", "Employee", "alice@gmail.com", "5 years", "Active", Men),
+  createData("John Doe", "Software Engineer", "Development", "C D E T U", "Very Good", "Sarah", "Employee", "john.doe@gmail.com", "2 years", "Active", Men),
+  createData("George Fernandes", "Visual Designer", "Design", "C E T D U", "Excellent", "Steven", "Employee", "dharanis@gmail.com", "3 years 4 months", "Active", Men),
+  createData("Alice Johnson", "Project Manager", "Management", "C E D U T", "Good", "Michael", "Employee", "alice@gmail.com", "5 years", "Active", Men),
+  createData("John Doe", "Software Engineer", "Development", "C D E T U", "Very Good", "Sarah", "Employee", "john.doe@gmail.com", "2 years", "Active", Men),
+  
 ];
 
 const IOSSwitch = styled((props) => (
